@@ -1,0 +1,13 @@
+# Azure Data Factory, Databricks, and PySpark
+# Ignore generated data files so we don't upload large files to GitHub
+ecommerce_data/
+*.csv
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
